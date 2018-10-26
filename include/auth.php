@@ -7,6 +7,7 @@ Class authentication extends base{
 
       $this->own_url = BASE_URL."/mge/service.sbr?serviceName=MobileLoginSP.login";
       $this->opt_req = $options;
+      var_dump($this->get_session());
   }
 
   public function login() {
@@ -83,6 +84,10 @@ Class authentication extends base{
 
     return (bool)$return_ttl;
   }
+
+
+
 }
+
 
 ?>

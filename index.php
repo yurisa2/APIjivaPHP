@@ -4,7 +4,7 @@ include "include/include_all.php";
 
 echo '<pre>';
 
-// $auth = new authentication;
+$auth = new authentication;
 
 
 
